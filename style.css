@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f6f7;
+    color: #1d1d1f;
+    line-height: 1.7;
+}
+
+/* HERO */
+.hero {
+    height: 60vh;
+    background: linear-gradient(120deg, #000000, #1c1c1c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #b5b5b5;
+    margin-top: 12px;
+    font-size: 1.1rem;
+}
+
+/* LAYOUT */
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    border-left: 4px solid #000;
+    padding-left: 12px;
+}
+
+.section p {
+    font-size: 1.05rem;
+    color: #333;
+}
+
+/* ACHIEVEMENTS */
+.achievements {
+    list-style: none;
+    padding-left: 0;
+}
+
+.achievements li {
+    background: #ffffff;
+    margin-bottom: 12px;
+    padding: 14px 18px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: #000;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .section h2 {
+        font-size: 1.6rem;
+    }
+}
